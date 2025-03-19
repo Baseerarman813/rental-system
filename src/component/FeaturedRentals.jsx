@@ -76,7 +76,7 @@ const FeaturedRentals = () => {
                     price: product.price || 0,
                     priceUnit: "day",
                     rating: product.rating || 0,
-                    image: product.imageLinks?.[0] || "/Images/DSLR.png",
+                    image: product.imageLinks?.[0] ,
                   }}
                 />
               </Link>
