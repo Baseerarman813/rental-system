@@ -2,10 +2,10 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <div className="relative bg-blue-500 overflow-hidden">
+    <div className="relative bg-yellow-300 overflow-hidden">
       <div className="absolute inset-0">
         <img
-          src="/Images/FRAME.png"
+          src="/Images/image.png"
           alt="People renting items"
           className="w-full h-full object-cover opacity-60"
         />
@@ -13,7 +13,7 @@ const Hero = () => {
       </div>
       <div className="relative max-w-7xl mx-auto py-24 px-4 sm:py-32 sm:px-6 lg:px-8">
         <h1 className="text-4xl font-extrabold tracking-tight text-white sm:text-5xl lg:text-6xl text-center">
-          Rent Anything, Anywhere
+           Baseer Rent Hub, Anything
         </h1>
         <p className="mt-6 max-w-lg mx-auto text-xl text-white text-center">
           Find the perfect items for your next project or adventure

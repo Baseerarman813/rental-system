@@ -39,9 +39,9 @@ const Navbar = () => {
             <div className="flex items-center">
               <div className="flex-shrink-0 flex items-center">
                 <div className="h-8 w-8 bg-blue-600 rounded-md flex items-center justify-center">
-                  <span className="text-white font-bold text-lg">R</span>
+                  <span className="text-white font-bold text-lg">AR</span>
                 </div>
-                <span className="ml-2 text-lg font-semibold">RentHub</span>
+                <span className="ml-2 text-lg font-semibold">ArmanRent</span>
               </div>
               <div className="hidden sm:ml-6 sm:flex sm:space-x-8">
                 <Link

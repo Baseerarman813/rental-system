@@ -115,7 +115,7 @@ const ProductDetail = () => {
   const mainImage =
     product.imageLinks && product.imageLinks.length > 0
       ? product.imageLinks[selectedImage]
-      : "/Images/DSLR.png"; // Default fallback image
+      :null; // Default fallback image
 
   // Safe rendering for specifications
   const renderSpecifications = () => {
